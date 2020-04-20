@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/Images_Slideshow.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    	body{
+    margin: 0;
+    padding: 0;
+    background-color: #313131;
+}
+.slider{
+    width: 800px;
+    height: 400px;
+    background-image: url("1.png");
+    margin: 100px auto;
+    animation: slide 20s infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes slide{
+    25%{
+    background: url("2.png"); 
+    }
+    50%{
+    background: url("3.png"); 
+    }
+    75%{
+        background: url("4.png"); 
+    }
+    100%{
+        background: url("1.png"); 
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="slider">
+
+    </div>
+</body>
+</html>
