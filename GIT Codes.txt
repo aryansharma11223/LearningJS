@@ -1,0 +1,60 @@
+1)  git config --global user.name YOUR_NAME
+2)  git config --global user.email YOUR_EMAIL_ADDRESS
+3)  git status ---->	Status of your File(Untracked/Unmodified/Modified/Staged)
+4)  git add FILE_NAME.extension ----->	Add your file to Staged Area
+		Red coloured file_name shows the Untracked Stage
+		Green coloured file_name shows the Staged Area
+5)  git commit  ------>	Goto Commit Section
+     (i) Press 'i'
+    (ii) type Initial Commit
+   (iii) Press 'esc'
+    (iv) type ':wq'
+  Commit Completed
+
+				'Working Tree Clean' means ALL SET
+6)  'touch' ------->	Creates the New File
+7)  git add -A    -------->	Add all files to Staging Area at once
+8)  git commit -m "Added more htmls"    -------->	Shortcut to Commit all FIles at once which are in Staged Area
+9)  GIT Checkout FILE_NAME    ------>	Recover to the last Commited Position(If by mistake Commited)
+10) GIT Checkout -f    ------>	Recover all files to the last Commited POsition(If Possible Commited)
+11) GIT log    ------>	When Commited the Files
+12) GIT log -p -n(times commit you want to see)    ------>	Last n Commits also with Changes in File
+					Type 'q' to Quit
+13) GIT Diff    ------>		Compare to Unmodified File to Modified File and Show the Changes
+14) GIT Commit -a -m "skipped staging area and fixed <"    ------>	Automatically Commit all Working Files
+15) GIT rm FILE_NAME    ------>		To Remove the File from Hard Disk
+16) GIT rm --cached    ------>		To Remove the File only From the Commit Automatic Commit Section
+17) GIT Status -m    ------>		Short Status of all Working Files
+18) Create a file with name '.gitignore' and Put All Files Names which you want to Ignore.
+		Simply put '/' Before FILE_NAME to Ignore File which is in the Working Repository
+		Simply put '/' After REPOSITORY_NAME to Ignore the Repository
+19) GIT Branch CHILD_BRANCH_NAME    ------>	To create a Child Branch
+	GIT Checkout CHILD_BRANCH_NAME    ------>	To Switch to the CHILD BRANCH
+20) GIT Merge CHILD_BRANCH_NAME    ------>	To Merge PARENT_BRANCH with CHILD_BRANCH
+21) GIT Checkout -b CHILD_BRRANCH_NAME    ------>	To Create a Child Branch and Switch to it Automatically
+22) GIT Branch    ------>	To Show All Created Branches
+23) GIT Remote    ------>	Shows all the Remote with Nick_Names(NOT URLs)
+24) GIT Remote -v    ------>	Shows all the Remote with Nick_Names and URLs
+25) GIT Push -u b0 BRANCH_NAME
+						Shortcuts
+1)  Ctrl++     ------>	Zoom In GIT Bash
+2)  Ctrl+-     ------>	Zoom Out GIT Bash
+3)  Ctrl+C     ------>	Cancel the Current GIT Command
+4)  'clear'    ------>  Clear the Terminal
+5)  'ls'       ------>	List all the Working Files
+						Key Words
+1)  BRANCH MASTER    ------>	Main Working File
+2)  
+
+					Identities
+1)  Red coloured file_name shows the Untracked Stage
+2)  Green coloured file_name shows the Staged Area  
+3)  * Sign Shows the Current Operating Branch
+
+
+
+
+
+
+
+				https://github.com/Arul-Web-Developing-Media/ARUL-DEVELOPING-MEDIA.git

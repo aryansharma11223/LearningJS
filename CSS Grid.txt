@@ -1,0 +1,20 @@
+1)  Denotes all the divs containing Even No. as thrie body  ------> div: nth-child(even){}
+2)  Denotes all the divs containing Odd No. as thrie body  ------> div: nth-child(odd){}
+3)  display: grid;
+    grid-template-columns: 1fr;		//'display: grid;' is compulsory
+					//one column of scale 1fr
+					//As maximum the No. of values are there, the same will be th eNo. of Columns
+4)  Columns in a Grid ------>	grid-column: 1 / 3;
+					//Here 1 denotes 'from which column the div occupy space' value and 3 shows 'upto which column the div occupy space'
+			OR
+    grid-column-end: span 2;
+				//Here 'span 2' shows the combination of No. of Columns the DIV used
+5)  grid-template-areas:
+    "title	title"
+    "header	."
+    "sidebar	content"
+    "sidebar	footer"
+
+		//'grid-template-areas' here contains the values as the DIVs in the Columns and Rows
+6)  grid-gap: 10px;
+		//It denotes the gap between different rows
